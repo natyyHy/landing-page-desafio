@@ -1,0 +1,196 @@
+@import url('reset.css');
+
+body {
+    background-color: #000000;
+    
+}
+
+p {
+    color: #fff;
+}
+
+header {
+  
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .3), rgba(0, 0, 0, .6)), url('/assets/imgs/banner.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  padding-top: 60px;
+  border-bottom: 1px solid #33A8DB80;
+  
+}
+
+section {
+  margin: 100px auto;
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 268px;
+    height: 268px;
+    background-image: linear-gradient(rgba(0,0,0,0.3));
+}
+
+.banner-content h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 800;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 900;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.banner-content p {
+    font-size: 1.2rem;
+    margin: 16px 0 24px;
+    font-weight: 400;
+    max-width: 460px;
+    text-align: center;
+
+}
+
+
+.banner-content button {
+    padding: 22px 70px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 800;
+    letter-spacing: 4px;
+    border: 2px solid #1472B7;
+    cursor: pointer;
+    
+}
+
+
+.container-course-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.container-course-content h1 {
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 100%;
+    font-size: 32px;
+    text-align: center;
+}
+
+.container-course-content p {
+    font-size: 1.2rem;
+    margin: 16px 0 24px;
+    max-width: 992px;
+    text-align: center;
+
+}
+
+.modules-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 24px 0;
+}
+
+.modules-list .module {
+    border: 1px solid #33A8DB;
+    border-radius: 100px;
+    color: #fff;
+    padding: 16px 127px;
+    text-align: center;
+    background-color: #252525;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+    
+    
+}
+
+.modules-list .module span {
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    color:transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+
+.container-transform-world {
+    padding: 200px;
+    background-image: url(/assets/imgs/woman-code.png);
+    background-attachment: fixed;
+    background-size: cover;
+    border-top: 1px solid #33A8DB;
+    border-bottom: 1px solid #33A8DB;
+}
+
+.container-transform-world p {
+    font-size: 2.5rem;
+    font-weight: 800;
+    max-width: 250px;
+    text-shadow: 3px 2px #33A8DB;
+}
+
+.container-professional-challenges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.container-professional-challenges h1 {
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    color:transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 2rem;
+    font-weight: 700;
+    max-width: 900px;
+    text-align: center;
+}
+
+.container-professional-challenges p {
+    font-size: 1.2rem;
+    margin: 16px 0 24px;
+    max-width: 992px;
+    text-align: center;
+}
+
+footer {
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    padding: 50px 0;
+    border-top: 1px solid #33A8DB;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+footer p a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #33A8DB;
+}
